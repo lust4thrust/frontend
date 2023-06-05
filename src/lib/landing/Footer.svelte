@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { mdiFacebook, mdiYoutube } from '@mdi/js'
+  import { mdiFacebook, mdiInstagram, mdiYoutube } from '@mdi/js'
 </script>
 
 <div class="root">
@@ -19,6 +19,11 @@
     >
       <svg class="icon">
         <path d={mdiFacebook} />
+      </svg>
+    </a>
+    <a class="link" href="https://instagram.com/lust4thrust" target="_blank">
+      <svg class="icon">
+        <path d={mdiInstagram} />
       </svg>
     </a>
   </div>
