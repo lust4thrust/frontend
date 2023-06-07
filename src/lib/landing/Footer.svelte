@@ -28,7 +28,7 @@
     </a>
   </div>
   <div class="colfJsDB">Lust 4 Thrust</div>
-  <div class="rights">All rights reseved</div>
+  <div class="rights">All rights reserved</div>
 </div>
 
 <style>
