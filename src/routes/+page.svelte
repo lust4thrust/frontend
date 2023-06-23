@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Albumi from '$lib/landing/Albumi.svelte'
   import Header from '$lib/landing/Header.svelte'
   import Svirke from '$lib/landing/Svirke.svelte'
   import Spotovi from '$lib/landing/Spotovi.svelte'
@@ -23,6 +24,7 @@
       {/if}
     </div>
   </div>
+  <Albumi />
   <Svirke />
   <Spotovi />
   <Footer />

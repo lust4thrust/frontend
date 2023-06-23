@@ -6,7 +6,7 @@
       frameborder="0"
       allow="web-share"
       allowfullscreen
-      title="Ja sam tvoj bog"
+      title="Plen"
     />
     <iframe
       class="video"
@@ -14,7 +14,7 @@
       frameborder="0"
       allow="web-share"
       allowfullscreen
-      title="Plen"
+      title="Ja sam tvoj bog"
     />
   </div>
 </div>
