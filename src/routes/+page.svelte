@@ -4,7 +4,6 @@
   import Svirke from '$lib/landing/Svirke.svelte'
   import Spotovi from '$lib/landing/Spotovi.svelte'
   import Footer from '$lib/landing/Footer.svelte'
-  import band from '$lib/img/band.jpg'
 
   let innerWidth = 1024
 </script>
@@ -12,7 +11,7 @@
 <svelte:window bind:innerWidth />
 
 <div class="root">
-  <div class="first" style={`background-image: url(${band})`}>
+  <div class="first">
     <Header />
     <div class="content" class:content-small={innerWidth < 800}>
       {#if innerWidth < 800}
@@ -43,7 +42,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-size: 100% 100%;
+    background-image: url('/img/grid.jpg');
   }
 
   .content {
