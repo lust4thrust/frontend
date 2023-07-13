@@ -4,21 +4,28 @@
     <div class="album">
       <h3>Da li si spremna za let?</h3>
       <div class="omot" />
-      <a
-        href="/data/Lust%204%20Thrust%20-%20Da%20li%20si%20spremna%20za%20let%20(wav).zip"
-      >
-        WAV
-      </a>
-      <a
-        href="/data/Lust%204%20Thrust%20-%20Da%20li%20si%20spremna%20za%20let%20(flac).zip"
-      >
-        FLAC
-      </a>
-      <a
-        href="/data/Lust%204%20Thrust%20-%20Da%20li%20si%20spremna%20za%20let%20(ogg).zip"
-      >
-        OGG
-      </a>
+      <div class="formats">
+        <a
+          href="/data/Lust%204%20Thrust%20-%20Da%20li%20si%20spremna%20za%20let%20(wav).zip"
+        >
+          WAV
+        </a>
+        <a
+          href="/data/Lust%204%20Thrust%20-%20Da%20li%20si%20spremna%20za%20let%20(flac).zip"
+        >
+          FLAC
+        </a>
+        <a
+          href="/data/Lust%204%20Thrust%20-%20Da%20li%20si%20spremna%20za%20let%20(ogg).zip"
+        >
+          OGG
+        </a>
+        <a
+          href="/data/Lust%204%20Thrust%20-%20Da%20li%20si%20spremna%20za%20let%20(mp3).zip"
+        >
+          MP3
+        </a>
+      </div>
     </div>
   </div>
 </div>
@@ -48,6 +55,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .formats {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    text-align: center;
   }
 
   .omot {
