@@ -5,6 +5,11 @@
       <h3>Da li si spremna za let?</h3>
       <div class="omot" />
       <a
+        href="/data/Lust%204%20Thrust%20-%20Da%20li%20si%20spremna%20za%20let%20(wav).zip"
+      >
+        WAV
+      </a>
+      <a
         href="/data/Lust%204%20Thrust%20-%20Da%20li%20si%20spremna%20za%20let%20(flac).zip"
       >
         FLAC
