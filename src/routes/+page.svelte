@@ -1,9 +1,10 @@
 <script lang="ts">
   import Albumi from '$lib/landing/Albumi.svelte'
-  import Header from '$lib/landing/Header.svelte'
-  import Svirke from '$lib/landing/Svirke.svelte'
-  import Spotovi from '$lib/landing/Spotovi.svelte'
   import Footer from '$lib/landing/Footer.svelte'
+  import Header from '$lib/landing/Header.svelte'
+  import Player from '$lib/landing/Player.svelte'
+  import Spotovi from '$lib/landing/Spotovi.svelte'
+  import Svirke from '$lib/landing/Svirke.svelte'
 
   let innerWidth = 1024
 </script>
@@ -27,6 +28,7 @@
   <Svirke />
   <Spotovi />
   <Footer />
+  <Player />
 </div>
 
 <style>
