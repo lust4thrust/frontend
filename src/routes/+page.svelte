@@ -27,8 +27,8 @@
   <Albumi />
   <Svirke />
   <Spotovi />
-  <Footer />
   <Player />
+  <Footer />
 </div>
 
 <style>

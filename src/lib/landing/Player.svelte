@@ -1,6 +1,14 @@
 <script lang="ts">
-  import { mdiPause, mdiPlay } from '@mdi/js'
+  import {
+    mdiPause,
+    mdiPlay,
+    mdiRepeat,
+    mdiRepeatOff,
+    mdiSkipNextOutline,
+    mdiSkipPreviousOutline,
+  } from '@mdi/js'
 
+  let innerWidth = 1024
   let index = 0
   let repeat = false
   let play = false
@@ -28,14 +36,28 @@
   ]
   let url = `/data/${albums[0].songs[0].file}.ogg`
 
+  function previous() {
+    --index
+    if (index < 0) {
+      if (repeat) {
+        index = albums[0].songs.length - 1
+      } else {
+        index = 0
+      }
+    }
+    url = `/data/${albums[0].songs[index].file}.ogg`
+  }
+
   function next() {
     ++index
-    if (repeat) {
-      index = index / albums[0].songs.length
+    if (index >= albums[0].songs.length) {
+      if (repeat) {
+        index = 0
+      } else {
+        index = albums[0].songs.length
+      }
     }
-    if (index < albums[0].songs.length) {
-      url = `/data/${albums[0].songs[index].file}.ogg`
-    }
+    url = `/data/${albums[0].songs[index].file}.ogg`
   }
 
   function togglePlay() {
@@ -76,8 +98,15 @@
     player.currentTime = currentTime
   }
 
+  function toggleRepeat() {
+    repeat = !repeat
+  }
+
   $: icon = play ? mdiPause : mdiPlay
+  $: repeatIcon = repeat ? mdiRepeat : mdiRepeatOff
 </script>
+
+<svelte:window bind:innerWidth />
 
 <div class="root">
   <div class="title">{albums[0].songs[index].title}</div>
@@ -91,9 +120,19 @@
       on:timeupdate={timeChanged}
       on:loadedmetadata={metaLoaded}
     />
+    <button class="button clear" on:click={previous}>
+      <svg class="play">
+        <path d={mdiSkipPreviousOutline} />
+      </svg>
+    </button>
     <button class="button clear" on:click={togglePlay}>
       <svg class="play">
         <path d={icon} />
+      </svg>
+    </button>
+    <button class="button clear" on:click={next}>
+      <svg class="play">
+        <path d={mdiSkipNextOutline} />
       </svg>
     </button>
     <input
@@ -103,14 +142,21 @@
       value={currentTime}
       on:input={changeTime}
     />
-    <input
-      class="volume"
-      type="range"
-      max={100}
-      value={volume}
-      on:input={changeVolume}
-    />
+    {#if innerWidth > 800}
+      <input
+        class="volume"
+        type="range"
+        max={100}
+        value={volume}
+        on:input={changeVolume}
+      />
+    {/if}
     <p class="time">{time}</p>
+    <button class="button clear repeat" on:click={toggleRepeat}>
+      <svg class="play" class:disabled={!repeat}>
+        <path d={repeatIcon} />
+      </svg>
+    </button>
   </div>
 </div>
 
@@ -132,7 +178,7 @@
 
   .play {
     width: 25px;
-    height: 20px;
+    height: 22px;
     fill: red;
   }
 
@@ -154,7 +200,6 @@
   .time {
     margin: 0;
     margin-left: 20px;
-    margin-right: 20px;
   }
 
   .time-slider {
@@ -165,5 +210,13 @@
 
   input[type='range'] {
     accent-color: red;
+  }
+
+  .disabled {
+    fill: gray;
+  }
+
+  .repeat {
+    margin-right: 20px;
   }
 </style>
