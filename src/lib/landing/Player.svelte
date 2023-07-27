@@ -138,6 +138,7 @@
     <input
       class="time-slider"
       type="range"
+      min={0}
       max={duration}
       value={currentTime}
       on:input={changeTime}
@@ -146,6 +147,7 @@
       <input
         class="volume"
         type="range"
+        min={0}
         max={100}
         value={volume}
         on:input={changeVolume}
