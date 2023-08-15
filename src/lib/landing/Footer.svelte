@@ -12,11 +12,7 @@
         <path d={mdiYoutube} />
       </svg>
     </a>
-    <a
-      class="link"
-      href="https://www.facebook.com/lustforthrust"
-      target="_blank"
-    >
+    <a class="link" href="https://www.facebook.com/lust4thrust" target="_blank">
       <svg class="icon">
         <path d={mdiFacebook} />
       </svg>
