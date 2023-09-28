@@ -7,12 +7,31 @@
         <div class="mesec">OCT</div>
       </div>
       <div class="mesto">
-        <div class="naziv">Metal Night</div>
+        <div class="naziv">Distorded Minds</div>
         <div>CK13, Vojvode Bojovića 13, Novi Sad</div>
       </div>
       <div class="mapa">
         <a
           href="https://www.openstreetmap.org/?mlat=45.25829&mlon=19.84005#map=19/45.25829/19.84005"
+          target="_blank"
+        >
+          Mapa
+        </a>
+      </div>
+    </div>
+    <hr />
+    <div class="svirka">
+      <div class="datum">
+        <div class="dan">18</div>
+        <div class="mesec">OCT</div>
+      </div>
+      <div class="mesto">
+        <div class="naziv">Liman Zove</div>
+        <div>Fabrika, Bulevar Despota Stefana 5, Novi Sad</div>
+      </div>
+      <div class="mapa">
+        <a
+          href="https://www.openstreetmap.org/?mlat=45.23756&mlon=19.84224#map=18/45.23756/19.84224"
           target="_blank"
         >
           Mapa
