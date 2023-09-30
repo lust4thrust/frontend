@@ -39,6 +39,44 @@
       </div>
     </div>
     <hr />
+    <div class="svirka">
+      <div class="datum">
+        <div class="dan">11</div>
+        <div class="mesec">NOV</div>
+      </div>
+      <div class="mesto">
+        <div class="naziv">Bečej</div>
+        <div>Zombi klub, Miloša Crnjanskog 67, Bečej</div>
+      </div>
+      <div class="mapa">
+        <a
+          href="https://www.openstreetmap.org/?mlat=45.61874&mlon=20.04699#map=19/45.61874/20.04699"
+          target="_blank"
+        >
+          Mapa
+        </a>
+      </div>
+    </div>
+    <hr />
+    <div class="svirka">
+      <div class="datum">
+        <div class="dan">23</div>
+        <div class="mesec">DEC</div>
+      </div>
+      <div class="mesto">
+        <div class="naziv">Pančevo</div>
+        <div>Bajka 013, Miladina Popovića 18, Pančevo</div>
+      </div>
+      <div class="mapa">
+        <a
+          href="https://www.openstreetmap.org/?mlat=44.86924&mlon=20.63741#map=19/44.86924/20.63741"
+          target="_blank"
+        >
+          Mapa
+        </a>
+      </div>
+    </div>
+    <hr />
   </div>
 </div>
 
