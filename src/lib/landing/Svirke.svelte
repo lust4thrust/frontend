@@ -3,16 +3,16 @@
     <h2 class="title">Svirke</h2>
     <div class="svirka">
       <div class="datum">
-        <div class="dan">18</div>
-        <div class="mesec">OCT</div>
+        <div class="dan">09</div>
+        <div class="mesec">DEC</div>
       </div>
       <div class="mesto">
-        <div class="naziv">Liman Zove</div>
-        <div>Fabrika, Bulevar Despota Stefana 5, Novi Sad</div>
+        <div class="naziv">Bečej</div>
+        <div>Klub Zombi, Miloša Crnjanskog 67, Bečej</div>
       </div>
       <div class="mapa">
         <a
-          href="https://www.openstreetmap.org/?mlat=45.23756&mlon=19.84224#map=18/45.23756/19.84224"
+          href="https://www.openstreetmap.org/?mlat=45.61836&mlon=20.04808#map=18/45.61835/20.04808"
           target="_blank"
         >
           Mapa
