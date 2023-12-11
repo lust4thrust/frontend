@@ -3,25 +3,6 @@
     <h2 class="title">Svirke</h2>
     <div class="svirka">
       <div class="datum">
-        <div class="dan">09</div>
-        <div class="mesec">DEC</div>
-      </div>
-      <div class="mesto">
-        <div class="naziv">Bečej</div>
-        <div>Klub Zombi, Miloša Crnjanskog 67, Bečej</div>
-      </div>
-      <div class="mapa">
-        <a
-          href="https://www.openstreetmap.org/?mlat=45.61836&mlon=20.04808#map=18/45.61835/20.04808"
-          target="_blank"
-        >
-          Mapa
-        </a>
-      </div>
-    </div>
-    <hr />
-    <div class="svirka">
-      <div class="datum">
         <div class="dan">23</div>
         <div class="mesec">DEC</div>
       </div>
