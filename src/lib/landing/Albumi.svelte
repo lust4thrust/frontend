@@ -7,21 +7,25 @@
       <div class="formats">
         <a
           href="/data/Lust%204%20Thrust%20-%20Da%20li%20si%20spremna%20za%20let%20(wav).zip"
+          class="link"
         >
           WAV
         </a>
         <a
           href="/data/Lust%204%20Thrust%20-%20Da%20li%20si%20spremna%20za%20let%20(flac).zip"
+          class="link"
         >
           FLAC
         </a>
         <a
           href="/data/Lust%204%20Thrust%20-%20Da%20li%20si%20spremna%20za%20let%20(ogg).zip"
+          class="link"
         >
           OGG
         </a>
         <a
           href="/data/Lust%204%20Thrust%20-%20Da%20li%20si%20spremna%20za%20let%20(mp3).zip"
+          class="link"
         >
           MP3
         </a>
@@ -60,8 +64,9 @@
   .formats {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 10px;
+    grid-gap: 10px;
     text-align: center;
+    margin-top: 10px;
   }
 
   .omot {

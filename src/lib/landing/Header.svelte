@@ -3,26 +3,26 @@
 </script>
 
 <div class="root">
-  <a href="/">
+  <a class="link" href="/" aria-label="home">
     <div class="logo" />
   </a>
-  <a class="link" href="https://youtube.com/@lust4thrust" target="_blank">
-    <svg class="icon">
-      <path d={mdiYoutube} />
+  <a class="link" href="https://youtube.com/@lust4thrust" target="_blank" aria-label="youtube">
+    <svg class="icon" viewBox="0 0 48 48" width="100%" height="100%">
+      <path d={mdiYoutube} class="path" />
     </svg>
   </a>
-  <a class="link" target="_blank" href="https://www.facebook.com/lust4thrust">
+  <a class="link" target="_blank" href="https://www.facebook.com/lust4thrust" aria-label="facebook">
     <svg class="icon">
-      <path d={mdiFacebook} />
+      <path d={mdiFacebook} class="path" />
     </svg>
   </a>
-  <a class="link" href="https://instagram.com/lust4thrust" target="_blank">
+  <a class="link" href="https://instagram.com/lust4thrust" target="_blank" aria-label="instagram">
     <svg class="icon">
-      <path d={mdiInstagram} />
+      <path d={mdiInstagram} class="path" />
     </svg>
   </a>
   <div class="contact">
-    <button class="button primary"> Contact </button>
+    <button class="button primary outline" aria-label="contact">Contact</button>
   </div>
 </div>
 
@@ -38,20 +38,18 @@
   .logo {
     background-image: url('/img/logo.svg');
     background-size: 100% 100%;
-    width: 26px;
+    width: 48px;
+    height: 48px;
     margin-right: 10px;
-    height: 26px;
   }
 
   .link {
-    width: 26px;
-    height: 26px;
     margin-right: 10px;
   }
 
   .icon {
-    width: 26px;
-    height: 26px;
+    width: 48px;
+    height: 48px;
     fill: red;
   }
 
@@ -59,5 +57,9 @@
     flex: 1;
     display: flex;
     justify-content: flex-end;
+  }
+
+  .path {
+    transform: scale(2.0);
   }
 </style>

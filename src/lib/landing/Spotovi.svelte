@@ -1,23 +1,51 @@
+<script lang="ts">
+  import { writable } from 'svelte/store'
+
+  let showPlen = writable(false)
+  let showBog = writable(false)
+
+  function show(video: string) {
+    function doShow() {
+      if (video === 'plen') {
+        $showPlen = true
+      } else {
+        $showBog = true
+      }
+    }
+    return doShow
+  }
+</script>
+
+
 <div class="root">
   <div class="content">
-    <iframe
-      class="video"
-      src="https://www.youtube.com/embed/OcqZsH9DYhg"
-      frameborder="0"
-      allow="web-share"
-      allowfullscreen
-      title="Plen"
-    />
-    <iframe
-      class="video"
-      src="https://www.youtube.com/embed/cC9tXHdJlyE"
-      frameborder="0"
-      allow="web-share"
-      allowfullscreen
-      title="Ja sam tvoj bog"
-    />
+    {#if $showPlen}
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/OcqZsH9DYhg?autoplay=1"
+        frameborder="0"
+        allow="autoplay web-share"
+        allowfullscreen
+        title="Plen"
+      />
+    {:else}
+      <div class="video plen" on:click={show('plen')} on:keypress={show('plen')} />
+    {/if}
+    {#if $showBog}
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/cC9tXHdJlyE?autoplay=1"
+        frameborder="0"
+        allow="autoplay web-share"
+        allowfullscreen
+        title="Ja sam tvoj bog"
+      />
+    {:else}
+      <div class="video bog" on:click={show('bog')} on:keypress={show('plen')} />
+    {/if}
   </div>
 </div>
+
 
 <style>
   .root {
@@ -39,6 +67,18 @@
   .video {
     width: 50%;
     height: 315px;
+  }
+
+  .plen {
+    background-image: url('/img/plen-spot.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .bog {
+    background-image: url('/img/bog-spot.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
   @media (width < 1024px) {

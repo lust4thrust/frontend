@@ -1,7 +1,7 @@
 <div class="root">
   <div class="content">
     <h2 class="title">Svirke</h2>
-    <div class="svirka">
+    <!-- div class="svirka">
       <div class="datum">
         <div class="dan">23</div>
         <div class="mesec">DEC</div>
@@ -18,7 +18,7 @@
           Mapa
         </a>
       </div>
-    </div>
+    </div -->
     <hr />
   </div>
 </div>

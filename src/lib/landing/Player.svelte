@@ -120,17 +120,17 @@
       on:timeupdate={timeChanged}
       on:loadedmetadata={metaLoaded}
     />
-    <button class="button clear" on:click={previous}>
+    <button class="button clear" aria-label="previous" on:click={previous}>
       <svg class="play">
         <path d={mdiSkipPreviousOutline} />
       </svg>
     </button>
-    <button class="button clear" on:click={togglePlay}>
+    <button class="button clear" aria-label="play" on:click={togglePlay}>
       <svg class="play">
         <path d={icon} />
       </svg>
     </button>
-    <button class="button clear" on:click={next}>
+    <button class="button clear" aria-label="next" on:click={next}>
       <svg class="play">
         <path d={mdiSkipNextOutline} />
       </svg>
@@ -142,6 +142,7 @@
       max={duration}
       value={currentTime}
       on:input={changeTime}
+      aria-label="time slider"
     />
     {#if innerWidth > 800}
       <input
@@ -151,10 +152,11 @@
         max={100}
         value={volume}
         on:input={changeVolume}
+        aria-label="volume slider"
       />
     {/if}
     <p class="time">{time}</p>
-    <button class="button clear repeat" on:click={toggleRepeat}>
+    <button class="button clear repeat" aria-label="repeat" on:click={toggleRepeat}>
       <svg class="play" class:disabled={!repeat}>
         <path d={repeatIcon} />
       </svg>

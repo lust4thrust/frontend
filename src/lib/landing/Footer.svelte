@@ -4,20 +4,20 @@
 
 <div class="root">
   <div class="social">
-    <a href="/">
+    <a href="/" aria-label="home">
       <div class="logo" />
     </a>
-    <a class="link" href="https://youtube.com/@lust4thrust" target="_blank">
+    <a class="link" href="https://youtube.com/@lust4thrust" target="_blank" aria-label="youtube">
       <svg class="icon">
         <path d={mdiYoutube} />
       </svg>
     </a>
-    <a class="link" href="https://www.facebook.com/lust4thrust" target="_blank">
+    <a class="link" href="https://www.facebook.com/lust4thrust" target="_blank" aria-label="facebook">
       <svg class="icon">
         <path d={mdiFacebook} />
       </svg>
     </a>
-    <a class="link" href="https://instagram.com/lust4thrust" target="_blank">
+    <a class="link" href="https://instagram.com/lust4thrust" target="_blank" aria-label="instagram">
       <svg class="icon">
         <path d={mdiInstagram} />
       </svg>
