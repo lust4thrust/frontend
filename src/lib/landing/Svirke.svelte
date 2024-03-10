@@ -1,24 +1,25 @@
 <div class="root">
   <div class="content">
     <h2 class="title">Svirke</h2>
-    <!-- div class="svirka">
+    <div class="svirka">
       <div class="datum">
-        <div class="dan">23</div>
-        <div class="mesec">DEC</div>
+        <div class="dan">24</div>
+        <div class="mesec">MAR</div>
       </div>
       <div class="mesto">
-        <div class="naziv">Pančevo</div>
-        <div>Bajka 013, Miladina Popovića 18, Pančevo</div>
+        <div class="naziv">Rebel Relic</div>
+
+        <div>Rebel Relic, dr. Petra Mikića Brace, Novi Sad</div>
       </div>
       <div class="mapa">
         <a
-          href="https://www.openstreetmap.org/?mlat=44.87066&mlon=20.63577#map=19/44.87066/20.63577"
+          href="https://www.openstreetmap.org/?mlat=45.25421&mlon=19.84585#map=19/45.25421/19.84585"
           target="_blank"
         >
           Mapa
         </a>
       </div>
-    </div -->
+    </div>
     <hr />
   </div>
 </div>
