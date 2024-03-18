@@ -21,6 +21,26 @@
       </div>
     </div>
     <hr />
+    <div class="svirka">
+      <div class="datum">
+        <div class="dan">11</div>
+        <div class="mesec">MAJ</div>
+      </div>
+      <div class="mesto">
+        <div class="naziv">CK13</div>
+
+        <div>Crna Kuća 13, Vojvode Bojovića 13, Novi Sad</div>
+      </div>
+      <div class="mapa">
+        <a
+          href="https://www.openstreetmap.org/?mlat=45.25829&mlon=19.84005#map=19/45.25829/19.84005"
+          target="_blank"
+        >
+          Mapa
+        </a>
+      </div>
+    </div>
+    <hr />
   </div>
 </div>
 
