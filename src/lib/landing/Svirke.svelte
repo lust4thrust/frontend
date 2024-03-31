@@ -3,26 +3,6 @@
     <h2 class="title">Svirke</h2>
     <div class="svirka">
       <div class="datum">
-        <div class="dan">24</div>
-        <div class="mesec">MAR</div>
-      </div>
-      <div class="mesto">
-        <div class="naziv">Rebel Relic</div>
-
-        <div>Rebel Relic, dr. Petra Mikića Brace, Novi Sad</div>
-      </div>
-      <div class="mapa">
-        <a
-          href="https://www.openstreetmap.org/?mlat=45.25421&mlon=19.84585#map=19/45.25421/19.84585"
-          target="_blank"
-        >
-          Mapa
-        </a>
-      </div>
-    </div>
-    <hr />
-    <div class="svirka">
-      <div class="datum">
         <div class="dan">11</div>
         <div class="mesec">MAJ</div>
       </div>
