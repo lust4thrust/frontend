@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { mdiFacebook, mdiInstagram, mdiYoutube } from '@mdi/js'
+  import { mdiPlay, mdiHexagonOutline, mdiFacebook, mdiInstagram, mdiYoutube } from '@mdi/js'
 </script>
 
 <div class="root">
@@ -21,16 +21,23 @@
       <path d={mdiInstagram} class="path" />
     </svg>
   </a>
-  <div class="contact">
-    <button class="button primary outline" aria-label="contact">Contact</button>
-  </div>
+  <a class="link" href="https://peertube.anduin.net/c/lust4thrust" target="_blank" aria-label="peertube">
+    <svg class="icon">
+      <path d={mdiPlay} class="path" />
+    </svg>
+  </a>
+  <a class="link" href="https://www.jamendo.com/artist/593536/lust-4-thrust" target="_blank" aria-label="jamendo">
+    <svg class="icon">
+      <path d={mdiHexagonOutline} class="path" />
+    </svg>
+  </a>
 </div>
 
 <style>
   .root {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 10px;
     width: 100%;
   }
@@ -51,12 +58,6 @@
     width: 48px;
     height: 48px;
     fill: red;
-  }
-
-  .contact {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
   }
 
   .path {
