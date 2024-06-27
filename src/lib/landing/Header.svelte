@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { mdiPlay, mdiHexagonOutline, mdiFacebook, mdiInstagram, mdiYoutube } from '@mdi/js'
+  import { mdiPlay, mdiSquare, mdiHexagonOutline, mdiFacebook, mdiInstagram, mdiYoutube } from '@mdi/js'
 </script>
 
 <div class="root">
@@ -29,6 +29,11 @@
   <a class="link" href="https://www.jamendo.com/artist/593536/lust-4-thrust" target="_blank" aria-label="jamendo">
     <svg class="icon">
       <path d={mdiHexagonOutline} class="path" />
+    </svg>
+  </a>
+  <a class="link" href="https://lust4thrust.bandcamp.com" target="_blank" aria-label="bandcamp">
+    <svg class="icon">
+      <path d={mdiSquare} class="path" />
     </svg>
   </a>
 </div>
