@@ -29,7 +29,7 @@
         { title: 'Tvorac', file: '06 tvorac' },
         { title: 'Poslednji pozdrav', file: '07 poslednji pozdrav' },
         { title: 'Manifestacija uma', file: '08 manifestacija uma' },
-        { title: 'Veselje neka počne', file: '09 veselje neka počne' },
+        { title: 'Veselje neka počne', file: '09 veselje neka pocne' },
         { title: 'Leader', file: '10 leader' },
       ],
     },
