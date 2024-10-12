@@ -3,8 +3,8 @@
     <h2 class="title">Svirke</h2>
     <div class="svirka">
       <div class="datum">
-        <div class="dan">11</div>
-        <div class="mesec">MAJ</div>
+        <div class="dan">18</div>
+        <div class="mesec">OKT</div>
       </div>
       <div class="mesto">
         <div class="naziv">CK13</div>
