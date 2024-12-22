@@ -46,7 +46,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('/img/grid.jpg');
+    background-image: url('/img/grid.webp');
   }
 
   .content {

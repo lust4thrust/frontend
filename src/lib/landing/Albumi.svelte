@@ -72,7 +72,7 @@
   .omot {
     width: 200px;
     height: 200px;
-    background-image: url('/img/da_li_si_spremna_za_let.png');
+    background-image: url('/img/da_li_si_spremna_za_let.webp');
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }

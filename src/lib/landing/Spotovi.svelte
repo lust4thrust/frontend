@@ -70,13 +70,13 @@
   }
 
   .plen {
-    background-image: url('/img/plen-spot.png');
+    background-image: url('/img/plen-spot.webp');
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
 
   .bog {
-    background-image: url('/img/bog-spot.png');
+    background-image: url('/img/bog-spot.webp');
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
