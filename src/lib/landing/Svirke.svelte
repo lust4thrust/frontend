@@ -3,17 +3,16 @@
     <h2 class="title">Svirke</h2>
     <div class="svirka">
       <div class="datum">
-        <div class="dan">18</div>
-        <div class="mesec">OKT</div>
+        <div class="dan">12</div>
+        <div class="mesec">JUL</div>
       </div>
       <div class="mesto">
-        <div class="naziv">CK13</div>
-
-        <div>Crna Kuća 13, Vojvode Bojovića 13, Novi Sad</div>
+        <div class="naziv">ZROK</div>
+        <div>Kulturni centar Zrenjanina, Narodne omladine 1, Zrenjanin</div>
       </div>
       <div class="mapa">
         <a
-          href="https://www.openstreetmap.org/?mlat=45.25829&mlon=19.84005#map=19/45.25829/19.84005"
+          href="https://www.openstreetmap.org/?#map=19/45.378124/20.389794"
           target="_blank"
         >
           Mapa
